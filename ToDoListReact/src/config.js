@@ -1,6 +1,6 @@
 // config.js
 const config = {
-    apiUrl: "http://localhost:5106"  // כתובת ה-API
+    apiUrl: process.env.REACT_APP_URL // כתובת ה-API
   };
   
   export default config;

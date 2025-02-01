@@ -31,7 +31,8 @@ var app = builder.Build();
 app.UseCors("AllowAll");
 
 app.UseSwagger();  
-app.UseSwaggerUI(c =>
+app.UseSwaggerUI
+(c =>
 {
     
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Todo API V1");;
