@@ -67,4 +67,5 @@ app.MapDelete("/items/{id}", (int id, ToDoDbContext db) =>
     return Results.NoContent();
 });
 
+app.MapGet("/",()=>"ToDoApi server is runing");
 app.Run();
