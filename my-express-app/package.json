@@ -1,17 +1,22 @@
 {
   "name": "my-express-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A simple Express app using Render API",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@api/render-api": "file:.api/apis/render-api",
+    "@api/render-api": "latest",
     "api": "^6.1.2",
     "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
