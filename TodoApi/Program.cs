@@ -15,7 +15,6 @@ builder.Services.AddCors(options =>
     });
 });
 
-
 var connectionString = builder.Configuration.GetConnectionString("ToDoDB");
 // Console.WriteLine();
 System.Console.WriteLine($"Connection String: {connectionString}");
