@@ -3,8 +3,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+<<<<<<< HEAD
   </PropertyGroup>
   <ItemGroup>
+=======
+    <UserSecretsId>68caff29-6722-4b06-be07-d4d21d50d9e5</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+ <ItemGroup>
+>>>>>>> b9a8f5cf621e8b360826f9ef5a26c4351f589f6f
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.3.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.2">
@@ -19,4 +27,8 @@
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
   </ItemGroup>
+<<<<<<< HEAD
 </Project>
+=======
+</Project>
+>>>>>>> b9a8f5cf621e8b360826f9ef5a26c4351f589f6f
