@@ -9,19 +9,9 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TodoApi
 build_property.RootNamespace = TodoApi
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\User\Desktop\בבקשה\PractiCode3\TodoApi\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.RazorLangVersion = 8.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\בבקשה\PractiCode3\TodoApi
-=======
 build_property.ProjectDir = C:\Users\User\Desktop\ה' בבקשה\TodoApi\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\ה' בבקשה\TodoApi
->>>>>>> b9a8f5cf621e8b360826f9ef5a26c4351f589f6f
 build_property._RazorSourceGeneratorDebug = 

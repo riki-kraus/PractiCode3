@@ -38,9 +38,7 @@ app.UseSwaggerUI
     c.RoutePrefix = string.Empty;
 });
 
-app.MapGet("/",()=>"ToDoApi server is runing");
-
-app.MapGet("/items", async(ToDoDbContext db) =>{return  db.Items.ToList();} );
+app.MapGet("/items", async(ToDoDbContext db) =>{return await db.Items.ToListAsync();} );
 app.MapPost("items/", (Item item, ToDoDbContext db) => 
 {
     db.Items.Add(item);
@@ -69,4 +67,5 @@ app.MapDelete("/items/{id}", (int id, ToDoDbContext db) =>
     return Results.NoContent();
 });
 
+app.MapGet("/",()=>"ToDoApi server is runing");
 app.Run();
